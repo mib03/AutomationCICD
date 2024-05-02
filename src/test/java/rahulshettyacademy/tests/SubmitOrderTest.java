@@ -17,7 +17,7 @@ import rahulshettyacademy.PageObjects.ProductCatalog;
 import rahulshettyacademy.TestComponents.BaseTest;
 
 public class SubmitOrderTest extends BaseTest {
-
+//      New comment added
 	@Test(dataProvider="getData", groups="Purchase")
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
 
